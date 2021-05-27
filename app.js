@@ -11,6 +11,7 @@ const flash = require("connect-flash");
 const errorController = require("./controllers/error");
 const User = require("./models/user");
 
+// comment to help push to heroku
 const MONGODB_URI =
   "mongodb+srv://class-project:2011102778@cluster0.hphyx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
