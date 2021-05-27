@@ -1,0 +1,26 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+https://warm-spire-50828.herokuapp.com/
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/nicvane01/cse341-TA.git
+
+3. Briefly list and describe the elements of the application that are functioning.
+The bulk of the website works as it should. You can view products. You can add, edit, and delete products.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+Everything from the assignment works as it should.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+I thought it was very interesting learning how to work with databases. I thought it was much simpler working with a database than by local variable like before.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+I wouldn't change anything.
+
+7. Please select the category you feel best describes your assignment:
+   4 - Meets requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I completed all aspects of the project up until the "meets requirements" section.

@@ -1,0 +1,24 @@
+After completing the assignment, be sure to push to Github. You do not have to worry about pushing to Heroku this lesson.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1.	Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/nicvane01/cse341-TA.git
+
+2.	Briefly list and describe the elements of the application that are functioning. 
+Initial page opens with welcome message. Contains a text input and submit button to submit a username. Button below that to access the /users page. Button on the /users page to return to initial page. List of usernames updates and appears on the /users page.
+
+3.	Briefly describe any pieces of the assignment that are not yet working correctly.
+Everything is working.
+
+4.	Briefly describe the "coolest" thing you learned while completing this assignment.
+I thought it was really cool learning to open a server and send html code through nodejs.
+
+5.	If you could change this assignment to be more effective or helpful, what would you change?
+More information on npm and nodemon. I had a difficult time getting my assignment to run with nodemon.
+
+7. Please select the category you feel best describes your assignment:
+5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I was able to get everything working as expected and added functionality to add the usernames submitted to a list that is shown on the /users page.
+

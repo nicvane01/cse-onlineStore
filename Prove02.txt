@@ -1,0 +1,20 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+    https://warm-spire-50828.herokuapp.com/
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+    https://github.com/nicvane01/cse341-TA
+3. Briefly list and describe the elements of the application that are functioning. 
+    Home page displays a list of books and summaries. It includes a link to another page where you can submit a new book and title. Upon submission it routes you automatically to home page with updated books.
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    Everything is working.
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    The coolest thing I learned during this assignment was how ejs pages work. I thought the format for ejs was very cool.
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    I thought the assignment was very helpful.
+7. Please select the category you feel best describes your assignment:
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    I have all requirements working for this assignment as well as the stretch. The list of books keeps all previous submissions and shows all of them.
