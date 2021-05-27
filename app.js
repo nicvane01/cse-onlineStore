@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 3000;
 const path = require("path");
 
 const express = require("express");
@@ -73,7 +74,7 @@ app.use(errorController.get404);
 mongoose
   .connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
-    app.listen(3000);
+    app.listen(PORT);
   })
   .catch((err) => {
     console.log(err);
