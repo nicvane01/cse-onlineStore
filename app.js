@@ -12,7 +12,6 @@ const flash = require("connect-flash");
 const errorController = require("./controllers/error");
 const User = require("./models/user");
 
-// comment to help push to heroku
 const MONGODB_URI =
   "mongodb+srv://class-project:2011102778@cluster0.hphyx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
@@ -71,8 +70,27 @@ app.use(authRoutes);
 
 app.use(errorController.get404);
 
+const cors = require("cors"); // Place this with other requires (like 'path' and 'express')
+const corsOptions = {
+  origin: "https://<your_app_name>.herokuapp.com/",
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+
+const options = {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+  family: 4,
+};
+
+const MONGODB_URL =
+  process.env.MONGODB_URL ||
+  "mongodb+srv://class-project:2011102778@cluster0.hphyx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
 mongoose
-  .connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
     app.listen(PORT);
   })
